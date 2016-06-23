@@ -1,0 +1,145 @@
+{
+  "uuid": "6eaa65b8-667a-44ba-9874-7f63517947db",
+  "shortName": "TechRad",
+  "longName": "TechRad",
+  "companyName": "Mango Lazi",
+  "versionCode": 270,
+  "versionLabel": "2.7",
+  "watchapp": {
+    "watchface": true
+  },
+  "capabilities": [ "configurable", "health" ],
+  "appKeys": {
+    "WEATHER_ICON": 0,
+    "WEATHER_TEMPERATURE": 1,
+    "WEATHER_CITY": 2,
+    "WEATHER_SUNTIMES": 3,
+    "WEATHER_FORECASTICON": 4,
+    "WEATHER_MINMAXTEMP": 5,
+    "WEATHER_MISC": 6,
+    "CONFIG_SECONDS": 7,
+    "CONFIG_HOURVIBES": 8,
+    "CONFIG_BLUETHEME": 9,
+    "CONFIG_REVERSE": 10,
+    "CONFIG_DISTANCE": 11
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "font",
+        "name": "FONT_ROUNDY_34_BOLD",
+        "file": "fonts/roundy.ttf"
+      },      
+      {
+        "type": "png",
+        "name": "IMAGE_BLUETOOTH",
+        "file": "img/bluetooth.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_SUN_SMALL_REVERSE",
+        "file": "img/reverse_small/sun_s_rev.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_RAIN_SMALL_REVERSE",
+        "file": "img/reverse_small/rain_s_rev.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_CLOUD_SMALL_REVERSE",
+        "file": "img/reverse_small/cloud_s_rev.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_SNOW_SMALL_REVERSE",
+        "file": "img/reverse_small/snow_s_rev.png"
+      },      
+	  {
+        "type": "png",
+        "name": "IMAGE_LOADING_SMALL_REVERSE",
+        "file": "img/reverse_small/loading_s_rev.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_SUN_REVERSE",
+        "file": "img/reverse/sun_rev.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_RAIN_REVERSE",
+        "file": "img/reverse/rain_rev.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_CLOUD_REVERSE",
+        "file": "img/reverse/cloud_rev.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_SNOW_REVERSE",
+        "file": "img/reverse/snow_rev.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_LOADING_REVERSE",
+        "file": "img/reverse/loading_rev.png"
+      },
+	  {
+        "type": "png",
+        "name": "IMAGE_SUN_SMALL",
+        "file": "img/sun_s.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_RAIN_SMALL",
+        "file": "img/rain_s.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_CLOUD_SMALL",
+        "file": "img/cloud_s.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_SNOW_SMALL",
+        "file": "img/snow_s.png"
+      },      
+	  {
+        "type": "png",
+        "name": "IMAGE_LOADING_SMALL",
+        "file": "img/loading_s.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_SUN",
+        "file": "img/sun.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_RAIN",
+        "file": "img/rain.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_CLOUD",
+        "file": "img/cloud.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_SNOW",
+        "file": "img/snow.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_LOADING",
+        "file": "img/loading.png"
+      }
+    ]
+  },
+  "targetPlatforms": [
+	"aplite",
+	"basalt"
+  ],
+  "sdkVersion": "3"
+}
